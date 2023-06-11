@@ -4,7 +4,7 @@
   padding: 18px 12px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
 }
 .containerNosInteresa_ofrecemos{
@@ -18,8 +18,8 @@
   font-size: 1.5em;
   font-weight: 900;
   text-align: center;
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
   margin-bottom: 6px;
+  /* AQUI FALTA MAS GRUESO */
 }
 .containerNosInteresa_feature-list {
   color: #604D4D;
@@ -39,7 +39,6 @@
   display: inline-block;
   margin-right: 5px;
   color: #ff7f50;
-  /* color de la viñeta */
 }
 
 .containerNosInteresa_teInteresa{
@@ -52,8 +51,8 @@
   color: #766e6e;
   font-size: 1.5em;
   font-weight:bolder;
+  /* AQUI FALTA MAS GRUESO */
   letter-spacing: 2px;
-  text-shadow: 0px 0px 3px rgba(63, 62, 62, 0.8);
 }
 .containerNosInteresa_teInteresa_subtitulo{
   color: #8c8787;
