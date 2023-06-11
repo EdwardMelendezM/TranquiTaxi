@@ -12,4 +12,7 @@ git clone https://github.com/EdwardMelendezM/TranquiTaxi.git
 npm install
 ```
 
-3. Y listo
+3. Y listo, poner en marcha el proyecto
+```
+npm run dev
+```
