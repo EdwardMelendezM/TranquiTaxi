@@ -1,0 +1,16 @@
+.containerMain{
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+    /* Dos columnas con el mismo ancho */
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 600px) {
+  .containerMain {
+    grid-template-columns: 1fr;
+    /* Solo una columna */
+  }
+}
