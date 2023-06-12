@@ -1,5 +1,5 @@
 .slider-container {
-    background-image: url(TaxiAppHome.png);
+    background-image: url('../../public/TaxiAppHome.png');
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -10,9 +10,20 @@
     flex-direction: column;
     gap: 15px;
   }
-  
+  .slider-container-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+  }
+  .slider-container-logo{
+    display: block;
+    max-width: 190px;
+    width: auto;
+  }
   .slider-title {
-    font-size: 4em;
+    font-size: 4.5em;
     text-align: left;
     padding-left: 30px;
     color: #fff ;
@@ -68,3 +79,11 @@
     color: white;
   }
   
+  .slider-container-logo{
+
+  }
+@media (max-width: 600px) {
+  .slider-container-logo {
+    display: none;
+  }
+}

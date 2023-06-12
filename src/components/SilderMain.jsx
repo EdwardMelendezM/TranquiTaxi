@@ -25,7 +25,10 @@ const listTargetas = [
 const SliderMain = () => {
   return (
     <div className="slider-container">
-      <h1 className="slider-title">TranquiTaxi</h1>
+      <div className="slider-container-main">
+        <h1 className="slider-title">TrankiTaxi</h1>
+        <img src="trankitaxi.png" alt="tranqui taxi logo" className="slider-container-logo"/>
+      </div>
       <div className="section-container">
         {
           listTargetas.map(item => {
